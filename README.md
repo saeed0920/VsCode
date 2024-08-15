@@ -1,0 +1,2 @@
+# VsCode
+Settings for VsCode
