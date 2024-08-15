@@ -1,0 +1,22 @@
+{
+  // Default
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "offset",
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // Hide
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "workbench.editor.showTabs": "none",
+  "workbench.colorTheme": "Electron Highlighter",
+  "editor.fontFamily": "MonoLisa",
+  "editor.fontSize": 15,
+  "editor.suggestFontSize": 15,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "JetBrains Mono"
+}
