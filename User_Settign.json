@@ -1,3 +1,4 @@
+// just specefict setting
 {
   // Default
   "editor.copyWithSyntaxHighlighting": false,
@@ -20,3 +21,194 @@
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontFamily": "JetBrains Mono"
 }
+
+// All userSetting
+{
+    // Default
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "offset",
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.lineNumbers": "relative",
+  
+    // Hide Settings
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "workbench.editor.showTabs": "none",
+    "workbench.colorTheme": "Electron Highlighter",
+    "editor.fontFamily": "MonoLisa-Regular",
+    "editor.fontSize": 14,
+    "editor.suggestFontSize": 14,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font Mono",
+  
+    "vsicons.dontShowNewVersionMessage": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.associations": {
+      "*.js": "javascript"
+    },
+    "highlight.regexes": {
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+        "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+        "decorations": [
+          {
+            "overviewRulerColor": "#ffcc00",
+            "backgroundColor": "#ffcc00",
+            "color": "#1f1f1f",
+            "fontWeight": "bold"
+          },
+          {
+            "backgroundColor": "#ffcc00",
+            "color": "#1f1f1f"
+          }
+        ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+        "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+        "decorations": [
+          {
+            "overviewRulerColor": "#cc0000",
+            "backgroundColor": "#cc0000",
+            "color": "#1f1f1f",
+            "fontWeight": "bold"
+          },
+          {
+            "backgroundColor": "#cc0000",
+            "color": "#1f1f1f"
+          }
+        ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+        "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+        "decorations": [
+          {
+            "overviewRulerColor": "#00ccff",
+            "backgroundColor": "#00ccff",
+            "color": "#1f1f1f",
+            "fontWeight": "bold"
+          },
+          {
+            "backgroundColor": "#00ccff",
+            "color": "#1f1f1f"
+          }
+        ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+        "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+        "decorations": [
+          {
+            "overviewRulerColor": "#cc00cc",
+            "backgroundColor": "#cc00cc",
+            "color": "#1f1f1f",
+            "fontWeight": "bold"
+          },
+          {
+            "backgroundColor": "#cc00cc",
+            "color": "#1f1f1f"
+          }
+        ]
+      }
+    },
+    "todohighlight.isEnable": true,
+    "vsicons.presets.hideExplorerArrows": true,
+    "todohighlight.defaultStyle": {},
+    "todohighlight.exclude": [
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.vscode/**",
+      "**/.github/**",
+      "**/_output/**",
+      "**/*.min.*",
+      "**/*.map",
+      "**/.next/**"
+    ],
+    "todohighlight.include": [
+      "**/*.js",
+      "**/*.jsx",
+      "**/*.ts",
+      "**/*.tsx",
+      "**/*.html",
+      "**/*.php",
+      "**/*.css",
+      "**/*.scss"
+    ],
+    "editor.guides.bracketPairs": "active",
+    "vscode-edge-devtools.mirrorEdits": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "glassit.alpha": 220,
+    "background.backgroundImageBlur": "1",
+  
+    "background.backgroundImageSize": "Cover",
+    "background.opacity": 0.95,
+    "background.backgroundImageRepeat": "No Repeat",
+    "background.backgroundImageAlignment": "Top Left",
+    "console-ninja.outputMode": "In View",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "background.smoothImageRendering": true,
+    "terminal.integrated.env.windows": {},
+    "lldb.suppressUpdateNotifications": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "vite.autoStart": false,
+    "[cpp]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "git.confirmSync": false,
+    "terminal.integrated.env.linux": {},
+    "git.autofetch": true,
+    "console-ninja.featureSet": "Community",
+    "cSpell.userWords": [
+      "bruh",
+      "chakra",
+      "DOCUMENTTYPE",
+      "fullname",
+      "IMAGETYPE",
+      "LEADSTATUSENUMS",
+      "lucide",
+      "msword",
+      "porps",
+      "REMINDERSTATUSENUMS",
+      "REPORTSALE",
+      "Saeed",
+      "TREATMENTSTATUSENUMS",
+      "treeselect",
+      "VIDEOTYPE",
+      "VITE",
+      "Zipcode"
+    ],
+    "workbench.tree.enableStickyScroll": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.cursorBlinking": "expand",
+    "[vue]": {
+      "editor.defaultFormatter": "Vue.volar"
+    },
+    "workbench.iconTheme": "`catppuccin`-latte",
+    "[typescriptreact]": {},
+    "workbench.editorAssociations": {
+      "*.html": "default"
+    },
+    "workbench.activityBar.location": "bottom",
+    "workbench.startupEditor": "none",
+    "eslint.run": "onSave",
+    "githubPullRequests.pullBranch": "never",
+    "window.customTitleBarVisibility": "auto",
+    "explorer.confirmDragAndDrop": false
+  }
+  
